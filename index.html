@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foldline — Kitchen knives forged one at a time</title>
+<meta name="description" content="Foldline is a two-person forge in Duluth, Minnesota. Damascus kitchen and field knives, forged by hand, made monthly.">
+<meta property="og:title" content="Foldline">
+<meta property="og:description" content="Kitchen knives forged one at a time in Duluth, Minnesota.">
+<meta property="og:image" content="assets/hero.jpg">
+<link rel="preload" href="fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/fraunces-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/hanken-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top">Foldline</a>
+  <nav class="links" aria-label="Sections">
+    <a href="#steel">The Steel</a>
+    <a href="#catalog">The Catalog</a>
+    <a href="#forge">The Forge</a>
+  </nav>
+  <a class="btn" href="#reserve">Reserve a blade</a>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="hero-copy">
+    <h1 class="hero-title">
+      <span class="line"><span>Kitchen knives,</span></span>
+      <span class="line"><span class="it">forged one at a time.</span></span>
+    </h1>
+    <p class="hero-sub">Foldline is a two-person forge on the shore of Lake Superior. Every blade is raised, hardened and sharpened by the two people who run the shop.</p>
+    <a href="#reserve" class="btn btn-lg">Reserve a blade</a>
+  </div>
+  <figure class="hero-img" id="heroImg">
+    <img src="assets/hero.jpg" alt="A freshly forged Foldline chef's knife resting on the blued-steel bench">
+  </figure>
+  <p class="hero-fact">Eleven hours at the anvil. Two at the wheel.</p>
+</section>
+
+<section class="steel" id="steel">
+  <div class="wrap">
+    <header class="rv">
+      <h2>The Steel</h2>
+      <p class="lede">One blade, three steels. You choose.</p>
+    </header>
+    <div class="count" aria-hidden="true"><span class="count-n" id="countN">0</span><span class="count-t">layers, folded by hand.</span></div>
+    <div class="steel-grid">
+      <div class="steel-imgs">
+        <img class="steel-img is-on" src="assets/steel-sg2.jpg" alt="Macro of the SG2 blade surface, fine tight damascus layers" data-steel="sg2">
+        <img class="steel-img" src="assets/steel-52100.jpg" alt="Macro of the 52100 blade surface, a wilder wave in dark steel" data-steel="52100" hidden>
+        <img class="steel-img" src="assets/steel-a2.jpg" alt="Macro of the A2 blade surface, coarse bold layers with a matte finish" data-steel="a2" hidden>
+      </div>
+      <div class="steel-pick" role="tablist" aria-label="Blade steel">
+        <button class="swatch is-on" role="tab" aria-selected="true" data-steel="sg2" data-hrc="63 HRC" data-line="Fine grain, holds a polished edge the longest. Our densest fold.">
+          <span class="sw-swatch" style="background-image:url('assets/steel-sg2.jpg')"></span>
+          <span class="sw-name">SG2 powder steel</span>
+        </button>
+        <button class="swatch" role="tab" aria-selected="false" data-steel="52100" data-hrc="61 HRC" data-line="A bearing steel, folded to a wilder wave. It takes an honest patina.">
+          <span class="sw-swatch" style="background-image:url('assets/steel-52100.jpg')"></span>
+          <span class="sw-name">52100 high-carbon</span>
+        </button>
+        <button class="swatch" role="tab" aria-selected="false" data-steel="a2" data-hrc="58 HRC" data-line="Coarse, tough, unpretentious. The camp knife steel.">
+          <span class="sw-swatch" style="background-image:url('assets/steel-a2.jpg')"></span>
+          <span class="sw-name">A2 tool steel</span>
+        </button>
+        <p class="steel-note" id="steelNote">Fine grain, holds a polished edge the longest. Our densest fold.</p>
+        <p class="steel-hrc" id="steelHrc">63 HRC</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="handle">
+  <div class="wrap">
+    <div class="handle-grid">
+      <figure class="h-img rv"><img src="assets/handle.jpg" alt="A walnut handle pinned in brass over a bone liner"></figure>
+      <div class="h-copy rv">
+        <h2>The Handle</h2>
+        <p class="lede">Shaped to your grip.</p>
+        <p>Every handle is shaped on the same bench as the blade: oiled walnut over a bone liner, pinned in brass. Send a tracing of your grip and we shape to it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="forge" id="forge">
+  <div class="wrap">
+    <figure class="f-img rv"><img src="assets/makers.jpg" alt="The two smiths of Foldline at the anvil, sparks in the firelight"></figure>
+    <div class="f-copy rv">
+      <h2>The Forge</h2>
+      <p class="lede">Two smiths, one bench.</p>
+      <p>Foldline is Elias Brandt and Marta Voss. They met at a smithing school in Stockholm, bought a coal forge at auction, and moved it to Duluth. They make knives the slow way because it is the only way they know that lasts.</p>
+    </div>
+  </div>
+</section>
+
+<section class="catalog" id="catalog">
+  <div class="wrap">
+    <header class="rv">
+      <h2>The Catalog</h2>
+      <p class="lede">Three blades, made monthly.</p>
+    </header>
+    <div class="cards">
+      <article class="card">
+        <figure><img src="assets/knife-gyuto.jpg" alt="The Gyuto 210 on bone paper"></figure>
+        <h3>Gyuto 210</h3>
+        <p>The kitchen knife, 210 mm at the edge.</p>
+        <p class="price">$480</p>
+        <a class="linkline" href="#reserve">Reserve this blade</a>
+      </article>
+      <article class="card">
+        <figure><img src="assets/knife-santoku.jpg" alt="The Santoku 180 on bone paper"></figure>
+        <h3>Santoku 180</h3>
+        <p>The shorter kitchen knife, 180 mm.</p>
+        <p class="price">$420</p>
+        <a class="linkline" href="#reserve">Reserve this blade</a>
+      </article>
+      <article class="card">
+        <figure><img src="assets/knife-field.jpg" alt="The Field 110 on bone paper"></figure>
+        <h3>Field 110</h3>
+        <p>The camp knife, 110 mm, for the boat and the ridge.</p>
+        <p class="price">$360</p>
+        <a class="linkline" href="#reserve">Reserve this blade</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="reserve" id="reserve">
+  <div class="wrap">
+    <div class="r-grid">
+      <div class="r-copy rv">
+        <h2>Reserve a blade</h2>
+        <p class="lede">Made monthly, in small numbers.</p>
+        <p>Each run is eight knives. Tell us which blade and which month, and we will reply with the next open slot.</p>
+      </div>
+      <form class="r-form" id="rForm" novalidate>
+        <label>Name<input type="text" name="name" autocomplete="name" required></label>
+        <label>Email<input type="email" name="email" autocomplete="email" required></label>
+        <div class="row">
+          <label>Blade
+            <select name="blade" required>
+              <option value="" selected>Select a blade</option>
+              <option>Gyuto 210</option>
+              <option>Santoku 180</option>
+              <option>Field 110</option>
+            </select>
+          </label>
+          <label>Month
+            <select name="month" required>
+              <option value="" selected>Select</option>
+              <option>December run</option>
+              <option>January run</option>
+              <option>February run</option>
+              <option>Next open slot</option>
+            </select>
+          </label>
+        </div>
+        <label>Message<textarea name="message" rows="3" placeholder="A tracing of your grip, a wood you prefer, anything else"></textarea></label>
+        <button type="submit">Send reservation</button>
+        <p class="sent" id="sentMsg" hidden>Received. We will reply with the next open slot.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span class="f-brand">Foldline</span>
+  <span class="f-note">Canal Park, Duluth, Minnesota &middot; forge@foldline.example</span>
+  <span class="f-tiny">All imagery on this page was generated for this concept. &copy; Foldline 2026</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
