@@ -62,7 +62,7 @@ img{display:block;max-width:100%}
 .hero-img img{width:100%;height:100%;object-fit:cover;
   clip-path:inset(0 0 0 100%);animation:wipe 1.1s cubic-bezier(.65,0,.35,1) .05s forwards}
 @keyframes wipe{to{clip-path:inset(0 0 0 0)}}
-.hero-fact{position:absolute;left:0;bottom:1.6rem;padding:1.1rem var(--edge);border-top:1px solid var(--line);
+.hero-fact{position:absolute;left:0;right:0;bottom:1.6rem;padding:1.1rem var(--edge);border-top:1px solid var(--line);
   font:italic 400 1.05rem/1.4 var(--serif);color:rgba(232,227,216,.66);
   opacity:0;animation:fade 1s ease .95s forwards}
 
